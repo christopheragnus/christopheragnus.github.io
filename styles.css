@@ -1,0 +1,88 @@
+.hero-text {
+    text-align: center;
+}
+
+.img-restricted {
+    width: 200px
+  }
+
+#introduction {
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.fill-viewport {
+    min-height: 100vh 
+  }
+
+  .text-white-70 {
+    color: rgba(255,255,255,0.7)
+  }
+
+  .text-black-40 {
+    color: rgba(0,0,0,0.4)
+  }
+
+  .fill-80-viewport {
+    min-height: 80vh
+  }
+ 
+  @media screen and (min-width: 768px ){
+    .basis-md-50 {
+      flex-basis: 50%
+    }  
+  }
+
+  #info-3 {
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+
+.text-white-40 {
+    color: rgba(255,255,255,0.4)
+  }
+  .text-white-70 {
+    color: rgba(255,255,255,0.7)
+  }
+
+  .list-border-y li {
+    border-top: 1px solid
+  }
+  .list-border-y li:last-child {
+    border-bottom: 1px solid
+  }
+
+  .body-text {
+      font-size: 16px;
+  }
+
+  .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+.social-icons {
+    padding:4px;
+    color: white;
+}
+
+.progress {
+    padding:2px;
+}
